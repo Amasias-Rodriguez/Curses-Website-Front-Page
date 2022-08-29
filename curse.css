@@ -6,6 +6,7 @@
 :root{
     --green: #11393c;
     --white: #faf7ed;
+    --gray: #a29f9a;
 }
 
 body{
@@ -31,6 +32,29 @@ nav{
 }
 
 .nav-ul li{
-    padding: 15px;
+    padding: 18px;
     list-style: none;
+    margin-right: 1.5rem;
+    color: var(--gray);
+
+}
+
+.nav-ul button{
+    width: 80px;
+    max-width: 600;
+    min-width: 20px;
+    height: 40px;
+    background: var(--green);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.search{
+    width: 400px;
+    height: 36px;
+    padding-left: 10px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    margin-top: 1.7rem;
 }
