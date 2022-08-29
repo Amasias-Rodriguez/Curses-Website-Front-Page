@@ -1,0 +1,36 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+:root{
+    --green: #11393c;
+    --white: #faf7ed;
+}
+
+body{
+    background: var(--white);
+}
+
+.section1{
+    padding: 0 3rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1-logo{
+    font-size: 25px;
+    color: var(--green);
+}
+
+.nav-ul{
+    display: flex;
+}
+
+.nav-ul li{
+    padding: 15px;
+    list-style: none;
+}
