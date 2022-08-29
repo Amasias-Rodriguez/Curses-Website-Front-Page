@@ -5,6 +5,7 @@
 
 :root{
     --green: #11393c;
+    --light-green: #234746;
     --white: #faf7ed;
     --gray: #a29f9a;
 }
@@ -24,7 +25,7 @@ nav{
 
 .sec1-logo{
     font-size: 25px;
-    color: var(--green);
+    color: var(--light-green);
 }
 
 .nav-ul{
@@ -36,7 +37,6 @@ nav{
     list-style: none;
     margin-right: 1.5rem;
     color: var(--gray);
-
 }
 
 .nav-ul button{
@@ -51,10 +51,21 @@ nav{
 }
 
 .search{
+    position: relative;
     width: 400px;
     height: 36px;
     padding-left: 10px;
     border: 1px solid var(--gray);
     border-radius: 5px;
     margin-top: 1.7rem;
+}
+
+.search-icon{
+    position: absolute;
+    width: 3rem;
+    height: 1.5rem;
+    left: 36.7rem;
+    top: 2.5rem;
+    border: none;
+    outline: none;
 }
