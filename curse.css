@@ -56,16 +56,21 @@ nav{
     height: 36px;
     padding-left: 10px;
     border: 1px solid var(--gray);
+    outline: none;
     border-radius: 5px;
     margin-top: 1.7rem;
 }
 
+.search:focus{
+    border: 1px solid greenyellow; 
+}
+
 .search-icon{
-    position: absolute;
+    position: relative;
     width: 3rem;
     height: 1.5rem;
-    left: 36.7rem;
-    top: 2.5rem;
+    left: -4.5rem;
+    top: 2rem;
     border: none;
     outline: none;
 }
