@@ -1,8 +1,8 @@
 *, *::before, *::after{
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    /* margin: 0; 
-    padding: 0; */
+    margin: 0; 
+    padding: 0;
 }
 
 :root{
@@ -19,6 +19,7 @@ body{
 /* HERO SECTION 1 */
 
 .section1{
+    height: 17vh;
     padding: 0 3rem;
 }
 
@@ -29,10 +30,12 @@ nav{
 
 .sec1-logo{
     font-size: 25px;
+    padding-top: 1.8rem;
     color: var(--light-green);
 }
 
 .nav-ul{
+    padding-top: 1rem;
     display: flex;
 }
 
@@ -52,6 +55,7 @@ nav{
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
+    border: none;
 }
 
 .search{
@@ -73,7 +77,7 @@ nav{
     position: relative;
     width: 3rem;
     height: 1.5rem;
-    left: -4.5rem;
+    left: -5.8rem;
     top: 2rem;
     border: none;
     outline: none;
@@ -83,43 +87,52 @@ nav{
 
 .section2{
     position: relative;
+    width: 100vw;
     height: 80vh;
-    /* padding: 2rem 5rem; */
+    padding-left: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    overflow-x: hidden;
     background-color: var(--green);
+}
+
+.ection2-text{
+    width: 50vw;
 }
 
 .sec2h1{
     position: relative;
-    top: 1.5rem;
-    font-size: 3rem;
+    top: 3rem;
+    font-size: 4rem;
     color: #fff;
 }
 
 .sec2-p{
-    padding-bottom: 2rem;
-    font-size: 18px;
+    padding-top: 4rem;
+    font-size: 20px;
     color: #a7bdbb;
 }
 
 .section2-footer{
     position: relative;
     display: flex;
-    bottom: 1rem;
+    top: 4rem;
 }
 
 .sec2-span{
+    position: relative;
+    left: 2rem;
+    font-size: 18px;
     color: #a7bdbb;
     margin-top: 5px;
     padding: 10px 15px;
     width: 390px;
-    outline: 1px solid red;
 }
 
 
 .sec2-button{
-    padding: 10px 15px;
+    font-size: 20px;
+    padding: 15px 25px;
     color: #fff;
     background: #f08354;
     border: none;
@@ -127,20 +140,21 @@ nav{
 }
 
 .section2-pic{
+    width: 50vw;
     height: 80vh;
-    outline: 1px solid yellow;
 }
 
 .section2-spanpic{
     position: absolute;
-    right: 20rem;
-    width: 100px;
-    height: 100px;
+    top: 15px;
+    right: 16rem;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background: #ece9e1;
 }
 
 .section2-pic img{
+    position: absolute;
     height: 500px;
-    z-index: -1000;
 }
