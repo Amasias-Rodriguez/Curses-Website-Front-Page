@@ -1,6 +1,8 @@
 *, *::before, *::after{
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    /* margin: 0; 
+    padding: 0; */
 }
 
 :root{
@@ -13,6 +15,8 @@
 body{
     background: var(--white);
 }
+
+/* HERO SECTION 1 */
 
 .section1{
     padding: 0 3rem;
@@ -73,4 +77,70 @@ nav{
     top: 2rem;
     border: none;
     outline: none;
+}
+
+/* SECTION 2 */
+
+.section2{
+    position: relative;
+    height: 80vh;
+    /* padding: 2rem 5rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--green);
+}
+
+.sec2h1{
+    position: relative;
+    top: 1.5rem;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.sec2-p{
+    padding-bottom: 2rem;
+    font-size: 18px;
+    color: #a7bdbb;
+}
+
+.section2-footer{
+    position: relative;
+    display: flex;
+    bottom: 1rem;
+}
+
+.sec2-span{
+    color: #a7bdbb;
+    margin-top: 5px;
+    padding: 10px 15px;
+    width: 390px;
+    outline: 1px solid red;
+}
+
+
+.sec2-button{
+    padding: 10px 15px;
+    color: #fff;
+    background: #f08354;
+    border: none;
+    border-radius: 4px;
+}
+
+.section2-pic{
+    height: 80vh;
+    outline: 1px solid yellow;
+}
+
+.section2-spanpic{
+    position: absolute;
+    right: 20rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #ece9e1;
+}
+
+.section2-pic img{
+    height: 500px;
+    z-index: -1000;
 }
