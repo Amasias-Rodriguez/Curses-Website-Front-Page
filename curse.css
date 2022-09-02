@@ -224,7 +224,7 @@ nav{
     position: relative;
     top: 21rem;
     width: 89%;
-    height: 100vh;
+    height: 98vh;
     margin: 0 auto;
     padding-top: 2rem;
     padding-left: 2rem;
@@ -234,8 +234,10 @@ nav{
 }    
 
 .sec4-left ul li{
+    position: relative;
+    top: 2rem;
     width: 170px;
-    font-size: 18px;
+    font-size: 22px;
     padding: 19px 15px;
     color: var(--gray);
     border-left-color: var(--green);
@@ -254,8 +256,8 @@ nav{
 
 .sec4-grid{
     position: absolute;
-    left: 13.1rem;
-    bottom: 2px;
+    bottom: 6rem;
+    left: 16rem;
     padding: 0 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -273,11 +275,12 @@ nav{
 
 .sec4-flex img{
     width: 120px;
-    height: 140px;
+    height: 100px;
+    padding: 10px 0;
     object-fit: contain;
 }
 
 .sec4-flex h1{
     color: var(--green);
-    font-size: 16px;
+    font-size: 20px;
 }
