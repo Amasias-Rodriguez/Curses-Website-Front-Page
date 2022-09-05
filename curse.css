@@ -271,7 +271,6 @@ nav{
 .sec4-flex img{
     width: 100px;
     height: 100px;
-    /* padding: 10px 0; */
     border-radius: 8px;
     object-fit: contain;
 }
@@ -303,7 +302,7 @@ nav{
 }
 
 .sec5-img{
-    width: 120px;
+    width: 150px;
     height: 120px;
     object-fit: cover;
     padding-left: 10px;
