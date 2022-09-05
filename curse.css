@@ -251,7 +251,7 @@ nav{
 
 .sec4-grid{
     position: absolute;
-    bottom: 6rem;
+    bottom: 2rem;
     left: 16rem;
     padding: 0 20px;
     display: grid;
@@ -263,20 +263,23 @@ nav{
 
 .sec4-flex{
     display: flex;
+    padding: 10px;
     border: 1px solid var(--gray);
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .sec4-flex img{
-    width: 120px;
+    width: 100px;
     height: 100px;
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    border-radius: 8px;
     object-fit: contain;
 }
 
 .sec4-flex h1{
     color: var(--green);
     font-size: 20px;
+    padding: 10px;
 }
 
 /* SECTION 5 */
@@ -291,27 +294,30 @@ nav{
 
 .sec5-container{
     position: relative;
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    padding: 1rem 2rem;
 }
 
 .sec5-img{
-    width: 100px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
     padding-left: 10px;
+    border-radius: 5px;
 }
 
 .sec5-h4{
-    font-size: 23px;
+    font-size: 27px;
     padding: 10px;
     color: var(--green);
 }
 
 .sec5-p{
-    font-size: 12px;
+    font-size: 15px;
     padding: 5px;
     padding-left: 10px;
     color: var(--gray);
