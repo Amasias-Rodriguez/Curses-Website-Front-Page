@@ -1,6 +1,6 @@
 *, *::before, *::after{
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     margin: 0; 
     padding: 0;
 }
@@ -434,4 +434,132 @@ nav{
     font-weight: 600;
     color: var(--green);
     padding-top: 1px;
+}
+
+/* SECTION 8 */
+
+.section8{
+    position: relative;
+    top: 45rem;
+    width: 100%;
+    height: 80vh;
+    background: var(--white);
+    /* outline: 1px solid red; */
+} 
+
+.sec8-container{
+    width: 80%;
+    display: flex; 
+    margin: 0 auto;
+}
+
+.sec8-tex{
+    position: relative;
+    left: 8rem;
+    padding-top: 7rem;
+    /* outline: 1px solid blue; */
+}
+
+.sec8-quotepic{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1rem;
+    transform: rotate(180deg);
+}
+
+.sec8-h1{
+    font-size: 25px;
+    line-height: 1.2;
+    color: var(--green);
+}
+
+.sec8-h2{
+    font-size: 18px;
+    padding-top: 40px;
+    color: var(--green);
+}
+
+.sec8-h3{
+    font-size: 14px;
+    padding-top: 10px;
+    color: var(--gray);
+
+}
+
+.sec8-manpic{
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.background{
+    width: 360px;
+    height: 455px;
+    border-radius: 100%;
+    background: #EEEBE5;
+}
+
+/* SECTION 9 */
+
+.section9{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    top: 48rem;
+    padding-top: 15vh;
+    background-color: var(--green);
+}
+
+.sec9-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sec9-orange{
+    position: absolute;
+    width: 66.5%;
+    height: 20vh;
+    text-align: center;
+    background: #F08354;
+    border-radius: 10px;
+}
+
+.white-box{
+    position: relative;
+    top: 10px;
+    right: 16px;
+    width: 900px;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 10px;
+    background: #FCFAF6;
+}
+
+.sec9-h4{
+    font-size: 25px;
+    line-height: 1;
+    color: var(--green);
+}
+
+.white-box input{
+    width: 400px;
+    height: 45px;
+    margin-left: 35px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid #dbd8d2;
+    background: var(--white);
+}
+
+.arrowpic{
+    width: 34px;
+    height: 34px;
+    position: relative;
+    right: 2.8rem;
+    border: none;
+    border-radius: 50%;
+    cursor:pointer;
+    background: var(--light-green);
 }
