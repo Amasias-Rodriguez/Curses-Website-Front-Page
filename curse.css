@@ -410,7 +410,7 @@ nav{
 .sec7-footer ion-icon{
     width: 15px;
     height: 15px;
-    background-color: #11393c;
+    background-color: #317a80;
     margin-right: 10px;
     border-radius: 100%;
     outline: none;
@@ -444,7 +444,6 @@ nav{
     width: 100%;
     height: 80vh;
     background: var(--white);
-    /* outline: 1px solid red; */
 } 
 
 .sec8-container{
@@ -457,7 +456,6 @@ nav{
     position: relative;
     left: 8rem;
     padding-top: 7rem;
-    /* outline: 1px solid blue; */
 }
 
 .sec8-quotepic{
@@ -507,6 +505,7 @@ nav{
     position: relative;
     top: 48rem;
     padding-top: 15vh;
+    padding-right: 27rem;
     background-color: var(--green);
 }
 
@@ -517,6 +516,7 @@ nav{
 
 .sec9-orange{
     position: absolute;
+    bottom: 14rem;
     width: 66.5%;
     height: 20vh;
     text-align: center;
@@ -526,13 +526,14 @@ nav{
 
 .white-box{
     position: relative;
-    top: 10px;
+    top: -7.5rem;
     right: 16px;
     width: 900px;
     height: 20vh;
     display: flex;
     align-items: center;
     padding: 0 10px;
+    border: 0.5px solid var(--gray);
     border-radius: 10px;
     background: #FCFAF6;
 }
@@ -562,4 +563,48 @@ nav{
     border-radius: 50%;
     cursor:pointer;
     background: var(--light-green);
+}
+
+/* FOOTER */
+
+.footer{
+    position: relative;
+    top: 39rem;
+    width: 100%;
+    height: 60vh;
+    background: var(--green);
+    color: #FCFAF6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li:nth-child(1){
+    font-size: 18px;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.footer ul li{
+    font-size: 15px;
+    padding: 10px 0;
+    color: #c0c0c0;
+}
+
+.footer-final{
+    position: relative;
+    top: 35rem;
+    width: 100%;
+    display: flex;
+    
+}
+
+.footer-final h6{
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0 auto;
+    color: #c0c0c0;
 }
