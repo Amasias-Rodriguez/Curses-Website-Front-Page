@@ -222,7 +222,7 @@ nav{
     position: relative;
     top: 21rem;
     width: 89%;
-    height: 98vh;
+    height: 110vh;
     margin: 0 auto;
     padding-top: 2rem;
     padding-left: 2rem;
@@ -262,6 +262,8 @@ nav{
 }
 
 .sec4-flex{
+    height: 142px;
+    position: relative;
     display: flex;
     padding: 10px;
     border: 1px solid var(--gray);
@@ -279,6 +281,27 @@ nav{
     color: var(--green);
     font-size: 20px;
     padding: 10px;
+}
+
+.sec4-footer{
+    position: absolute;
+    top: 4rem;
+    left: 8.5rem;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4-footer ul li{
+    list-style: none;
+    color: var(--green);
+}
+
+.sec4-footer ul li ion-icon{
+    position: relative;
+    top: 3px;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 
 /* SECTION 5 */
